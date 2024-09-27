@@ -1,0 +1,48 @@
+body {background-color: beige;
+    color: black
+        
+    ;}
+    
+    
+    
+    h1 {text-align: center;
+        padding: 3px;
+        background-color: beige;
+        color: rgb(127, 10, 10) ;
+        border-radius: 50px;
+        height: 50px
+    }
+    
+    
+    
+    h2 {text-align: center;
+        padding: 3px;
+        background-color: beige;
+        color: rgb(127, 10, 10) ;
+        border-radius: 50px;
+        height: 30px
+    }
+    
+    
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+    
+      
+    main {text-align: center;}
+    
+    
+    
+    a:hover {
+        color: #f33506;
+      }
+    
+    
+    h1, h2 {background-color: aqua;
+        height: fit-content;
+    }
