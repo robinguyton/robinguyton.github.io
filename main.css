@@ -8,7 +8,7 @@ body {background-color: beige;
     h1 {text-align: center;
         padding: 3px;
         background-color: beige;
-        color: rgb(127, 10, 10) ;
+        color: red ;
         border-radius: 50px;
         height: 50px
     }
@@ -18,7 +18,7 @@ body {background-color: beige;
     h2 {text-align: center;
         padding: 3px;
         background-color: beige;
-        color: rgb(127, 10, 10) ;
+        color: red;
         border-radius: 50px;
         height: 30px
     }
@@ -43,6 +43,7 @@ body {background-color: beige;
       }
     
     
-    h1, h2 {background-color: aqua;
+    h1, h2 {background-color: black;
         height: fit-content;
+        width: 1400px;
     }
