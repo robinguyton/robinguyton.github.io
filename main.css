@@ -14,7 +14,8 @@ body {background-color: beige;
     }
     
    
-    p {max-width: fit-content;    
+    p {max-width: fit-content;  
+        text-align: center;
        
     }
     
