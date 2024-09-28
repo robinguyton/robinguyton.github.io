@@ -13,7 +13,7 @@ body {background-color: beige;
         height: 50px
     }
     
-    
+    p {max-width: fit-content;}
     
     h2 {text-align: center;
         padding: 3px;
