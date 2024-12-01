@@ -1,101 +1,134 @@
 
 h1 {
-  font-family: "Nunito";
-  color: bisque;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-size: 36px;
-  font-style: normal;
-  background-color: aqua;
-  border: solid 5px;
-  padding: 100px;
-  text-align: center;
-  background-image: url(https://cdn.gardenista.com/wp-content/uploads/2018/02/japanese-dry-garden-gravel-trees-rocks-moss-portland-el-ave-flickr-1466x977.jpg); height: 300px; width: 1200px;
-}
-
-
-body { background-color: rgb(148, 192, 148);
-
-}
-
-
-.wrapper { 
-	/*Setting the width of the element to take up 100% of the overall page width*/
-	width: 100%;
-	/*Setting the font size to 18 pixels*/
-	font-size: 18px;
-	/*Setting a 2 pixel solid border*/
-	border: 5px solid;
-	/*Changing the border color to green*/
-	border-color: bisque;
-    text-align: justify;
-    display: flex;
-
-}
-
-
-
-.design-selection {
-    width: 40%;
-    border-right: solid 3px;
+    font-family: "Nunito";
+    color: white;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    background-color: aqua;
+    border: solid 5px;
     border-color: bisque;
+    padding: 100px;
     text-align: center;
+    background-image: url(https://cdn.gardenista.com/wp-content/uploads/2018/02/japanese-dry-garden-gravel-trees-rocks-moss-portland-el-ave-flickr-1466x977.jpg); height: 300px; width: 1200px;
+  }
+  
+  
+  body {
+      background-color: rgb(149, 179, 149);
+      color: white;
+      font-size: 24px;
+  
+  
+  }
+  
+  h2, h3 {   font-family: "Parkinsans";
+      color: rgb(72, 72, 196);
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: 48px;
+      text-align: center;}
+
+      a:link, a:visited {
+        color: red
+    }
+    
+    a:focus, a:hover {
+        background-color: pink;
+        border-radius: 5px;
+        text-decoration: underline;
+        transition-duration: 0.2s;
+        transition-property: background;
+    }
+  
+  .role { border: solid 5px;
+    border-color: brown;
 
 
-}
-
-.design-archives {
-    width: 20%;
-    border-right: solid 3px;
-    border-color: bisque;
-    text-align: center;
-
-}
-
-.zen-resources {
-    width: 40%;
-    border-color: bisque;
-    text-align: center;
-
-}
-
-
-footer {
-    text-align: center;
-    width: max-content;
-	padding: 10px;
-	/*Setting a 2 pixel solid border*/
+  }
+  
+  .wrapper { 
+    font-size: 24px;
+    /*Setting a 5 pixel solid border*/
     border: 5px solid;
+    /*Changing the border color to bisque*/
     border-color: bisque;
-	/*Setting the font size to 18 pixels*/
-	font-size: 18px;
-    margin-bottom: 10px;
-
-
-}
-
-#footer-container { border: solid 5px;
-    border-color: bisque;
-
+    color: white;
+    width: 500px;
+ 
 
 }
+  
+  
+  .design-selection {
+      width: 50%;
+      border-color: bisque;
+      text-align: center;
+      color: white;
+      display: inline-grid;
+      padding-left: 100px;
+    
+  
+  
+  }
+  
+  .design-archives {
+      width: 50%;
+      border-color: bisque;
+      text-align: center;
+      display: inline-grid;
+      padding-left: 100px;
+      
+  
+  }
+  
 
-.page-wrapper {
-    display: flexbox;
-
-}
-
-.summary { border: solid 5px;
-    border-color: bisque;
-    margin: 10px
-
-}
-
-.preamble { border: solid 5px;
-    border-color: bisque;
-    margin: 10px
-
-
-}
-
-
+  .zen-resources {
+      width: 50%;
+      border-color: bisque;
+      text-align: center;
+      display: inline-grid;
+      padding-left: 100px;
+  
+  }
+  
+  
+  footer {
+      text-align: center;
+      width: 98.5%;
+      padding: 10px;
+      /*Setting a 2 pixel solid border*/
+      border: 5px solid;
+      border-color: bisque;
+      /*Setting the font size to 18 pixels*/
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-size: 24px;
+     
+  
+  
+  }
+  
+  #footer-container { border: solid 5px;
+      border-color: bisque;
+  
+  
+  }
+  
+  
+  .summary { border: solid 5px;
+      border-color: bisque;
+      margin: 10px
+  
+  }
+  
+  .preamble { border: solid 5px;
+      border-color: bisque;
+      margin: 10px
+  
+  
+  }
+  
+  
+  
