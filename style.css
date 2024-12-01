@@ -1,6 +1,7 @@
 
 h1 {
   font-family: "Nunito";
+  color: bisque;
   font-optical-sizing: auto;
   font-weight: 600;
   font-size: 36px;
@@ -9,11 +10,92 @@ h1 {
   border: solid 5px;
   padding: 100px;
   text-align: center;
+  background-image: url(https://cdn.gardenista.com/wp-content/uploads/2018/02/japanese-dry-garden-gravel-trees-rocks-moss-portland-el-ave-flickr-1466x977.jpg); height: 300px; width: 1200px;
 }
+
 
 body { background-color: rgb(148, 192, 148);
 
+}
+
+
+.wrapper { 
+	/*Setting the width of the element to take up 100% of the overall page width*/
+	width: 100%;
+	/*Setting the font size to 18 pixels*/
+	font-size: 18px;
+	/*Setting a 2 pixel solid border*/
+	border: 5px solid;
+	/*Changing the border color to green*/
+	border-color: bisque;
+    text-align: justify;
+    display: flex;
+
+}
+
+
+
+.design-selection {
+    width: 40%;
+    border-right: solid 3px;
+    border-color: bisque;
+    text-align: center;
 
 
 }
+
+.design-archives {
+    width: 20%;
+    border-right: solid 3px;
+    border-color: bisque;
+    text-align: center;
+
+}
+
+.zen-resources {
+    width: 40%;
+    border-color: bisque;
+    text-align: center;
+
+}
+
+
+footer {
+    text-align: center;
+    width: max-content;
+	padding: 10px;
+	/*Setting a 2 pixel solid border*/
+    border: 5px solid;
+    border-color: bisque;
+	/*Setting the font size to 18 pixels*/
+	font-size: 18px;
+    margin-bottom: 10px;
+
+
+}
+
+#footer-container { border: solid 5px;
+    border-color: bisque;
+
+
+}
+
+.page-wrapper {
+    display: flexbox;
+
+}
+
+.summary { border: solid 5px;
+    border-color: bisque;
+    margin: 10px
+
+}
+
+.preamble { border: solid 5px;
+    border-color: bisque;
+    margin: 10px
+
+
+}
+
 
