@@ -1,0 +1,19 @@
+
+h1 {
+  font-family: "Nunito";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 36px;
+  font-style: normal;
+  background-color: aqua;
+  border: solid 5px;
+  padding: 100px;
+  text-align: center;
+}
+
+body { background-color: rgb(148, 192, 148);
+
+
+
+}
+
