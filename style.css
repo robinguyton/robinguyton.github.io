@@ -1,10 +1,10 @@
 
-h1 {
+h1 {    
     font-family: "Nunito";
     color: white;
     font-optical-sizing: auto;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 48px;
     font-style: normal;
     background-color: aqua;
     border: solid 5px;
@@ -13,28 +13,44 @@ h1 {
     text-align: center;
     background-image: url(https://cdn.gardenista.com/wp-content/uploads/2018/02/japanese-dry-garden-gravel-trees-rocks-moss-portland-el-ave-flickr-1466x977.jpg); height: 300px; width: 1200px;
   }
-  
-  
-  body {
-      background-color: rgb(149, 179, 149);
+
+
+.summary {text-align: center;}
+
+
+body {
+    background-color: rgb(149, 179, 149);
       color: white;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
       font-size: 24px;
+      ;
+
   
   
-  }
+}
   
-  h2, h3 {   font-family: "Parkinsans";
+h2, h3 {   
+    font-family: "Oswald", sans-serif;
       color: rgb(72, 72, 196);
       font-optical-sizing: auto;
       font-weight: 500;
       font-size: 48px;
-      text-align: center;}
+      text-align: center;
 
-      a:link, a:visited {
-        color: red
-    }
+
+}
+
+
+a:link, a:visited {color: red
+
+
+}
+
     
-    a:focus, a:hover {
+a:focus, a:hover {
         background-color: pink;
         border-radius: 5px;
         text-decoration: underline;
@@ -42,59 +58,57 @@ h1 {
         transition-property: background;
     }
   
-  .role { border: solid 5px;
-    border-color: brown;
 
-
-  }
   
-  .wrapper { 
+.wrapper { 
     font-size: 24px;
     /*Setting a 5 pixel solid border*/
     border: 5px solid;
     /*Changing the border color to bisque*/
     border-color: bisque;
     color: white;
-    width: 500px;
+    width: 400px;
  
 
 }
   
   
-  .design-selection {
+.design-selection {
       width: 50%;
       border-color: bisque;
       text-align: center;
       color: white;
       display: inline-grid;
-      padding-left: 100px;
-    
-  
-  
-  }
-  
-  .design-archives {
-      width: 50%;
-      border-color: bisque;
-      text-align: center;
-      display: inline-grid;
-      padding-left: 100px;
-      
-  
-  }
+      padding-left: 80px;  
   
 
-  .zen-resources {
+}
+  
+
+.design-archives {
       width: 50%;
       border-color: bisque;
       text-align: center;
       display: inline-grid;
-      padding-left: 100px;
+      padding-left: 80px;
+
+      
+
+}
   
-  }
+
+.zen-resources {
+      width: 50%;
+      border-color: bisque;
+      text-align: center;
+      display: inline-grid;
+      padding-left: 80px;
+
+  
+}
   
   
-  footer {
+footer {
       text-align: center;
       width: 98.5%;
       padding: 10px;
@@ -105,30 +119,65 @@ h1 {
       font-size: 18px;
       margin-bottom: 10px;
       font-size: 24px;
-     
+
   
-  
-  }
-  
-  #footer-container { border: solid 5px;
+}
+
+
+#footer-container { border: solid 5px;
       border-color: bisque;
   
   
-  }
+}
   
   
-  .summary { border: solid 5px;
+.summary { 
+    border: solid 5px;
+      border-color: bisque;
+      margin: 10px
+
+
+}
+  
+
+.preamble { 
+    border: solid 5px;
       border-color: bisque;
       margin: 10px
   
-  }
   
-  .preamble { border: solid 5px;
-      border-color: bisque;
-      margin: 10px
+}
   
   
-  }
-  
-  
-  
+.main-supporting { display: flex;
+    width: 100%;
+
+
+}
+
+#zen-explanation { 
+    border: solid 5px; color: bisque;
+  display: flex 2;
+
+
+}
+
+
+#zen-participation {
+    border: solid 5px; color: bisque;
+    display: flex 2;
+
+
+}
+
+
+.zen-benefits {
+
+
+}
+
+
+.zen-requirements {
+
+
+}
