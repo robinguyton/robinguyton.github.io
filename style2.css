@@ -1,0 +1,63 @@
+h1 {   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: normal;
+    text-align: right;
+    background-color: rgb(2, 71, 128);
+    color: pink;
+    padding: 100px;
+    margin: 0;
+
+
+}
+
+h2 {font-size: 50px;
+color: rgb(201, 2, 201);
+text-align: center;
+margin: 0;
+}
+
+
+h3 {font-size: 48px;
+    color: brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+
+
+}
+
+
+header { background-color: aqua;
+    padding: 20px;
+    margin: 0;
+    
+
+}
+  
+
+p { font-size: 36px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+#zen-summary {font-size: 30px;
+    background-color: rgb(152, 73, 73);
+    margin-top: 0;
+
+
+
+}
+
+
+#zen-intro {margin: 0;
+
+
+}
+
+#sidebar { 
+
+    
+}
