@@ -29,9 +29,6 @@ h3 {font-size: 36px;
 
 
 
-
-}
-
 a:link, a:visited {color: rgb(50, 183, 23)
 
 
@@ -48,7 +45,8 @@ a:focus, a:hover {
   
 
 
-#zen-preamble, #zen-summary, header {background-image: url(https://static.vecteezy.com/system/resources/previews/027/231/632/original/illustration-graphic-of-aesthetic-wallpaper-templates-simple-and-modern-style-with-copy-space-for-text-good-for-wedding-invitation-backgrounds-and-frames-social-media-stories-wallpapers-vector.jpg); height: 800px;
+#zen-preamble, #zen-summary, header {
+    background-color: bisque;
     color: black;
     display: grid;
     grid-template-columns: 1fr;
@@ -69,6 +67,7 @@ a:focus, a:hover {
     padding: 20px;
     text-align: justify;
     font-size: 30px;
+    background-color: rgb(179, 119, 129);
 
 
 }
@@ -80,6 +79,7 @@ a:focus, a:hover {
     grid-template-columns: 1fr;
     text-align: justify;
     font-size: 30px;
+    background-color: rgb(179, 119, 129);
 
 
 }
@@ -102,11 +102,41 @@ a:focus, a:hover {
 }
 
 
-    
-
-
-#sidebar { 
+#zen-requirements { background-color: bisque;
+    font-size: 30px;
+    grid-column: span 1;
+    grid-row: span 2;
+    padding: 50px;
+    margin: 0;
 
 
 }
 
+
+
+.wrapper { 
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-row: span 2;
+    background-color: rgb(179, 119, 129);
+    margin: 0;
+    padding-bottom: 70px;
+    position: relative;
+    bottom: 80px;
+
+
+
+}
+
+footer {
+    text-align: center;
+    width: 97%;
+    padding: 20px;
+    font-size: 36px;
+    position: relative;
+    top: 300px;
+    color: pink;
+    background-color: rgb(2, 71, 128);
+
+
+}
