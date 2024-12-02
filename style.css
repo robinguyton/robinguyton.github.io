@@ -2,7 +2,6 @@
 h1 {    
     font-family: "Nunito";
     color: white;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-size: 48px;
     font-style: normal;
@@ -22,7 +21,6 @@ body {
     background-color: rgb(149, 179, 149);
       color: white;
       font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;
       font-size: 24px;
@@ -35,7 +33,6 @@ body {
 h2, h3 {   
     font-family: "Oswald", sans-serif;
       color: rgb(72, 72, 196);
-      font-optical-sizing: auto;
       font-weight: 500;
       font-size: 48px;
       text-align: center;
@@ -61,7 +58,6 @@ a:focus, a:hover {
  #zen-explanation, #zen-benefits{
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-auto-rows: (minmax(200px, auto));
     margin: 10px;
     padding: 20px;
     text-align: justify;
@@ -78,7 +74,7 @@ a:focus, a:hover {
 
 #zen-preamble, #zen-participation, #zen-requirements {    display: grid;
     grid-template-columns:1fr;
-    grid-auto-rows: (minmax(200px, auto));
+    grid-auto-rows: auto;
     margin: 10px;
     padding: 10px;
     text-align: justify;
@@ -90,7 +86,8 @@ a:focus, a:hover {
   
   
 .design-selection, .design-archives, .zen-resources{
-      width: 50%;
+      width: 40%;
+      grid-template-columns: auto;
       border-color: bisque;
       text-align: center;
       color: white;
@@ -101,15 +98,10 @@ a:focus, a:hover {
 
 }
   
-
-
-  
-
-  
   
 footer {
       text-align: center;
-      width: 95%;
+      width: 96%;
       padding: 20px;
       /*Setting a 2 pixel solid border*/
       border: 5px solid;
@@ -119,10 +111,9 @@ footer {
       margin-top: 10px;
       font-size: 24px;
       position: relative;
-      left: 10px
+      top: 900px;
+    
  
-
-  
 }
 
   
@@ -139,20 +130,15 @@ footer {
 .preamble { 
     border: solid 5px;
       border-color: bisque;
- 
-
   
   
 }
-  
-  
 
 
 #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements { 
     border: solid 5px; border-color: bisque;
 
     
-
 
 }
 
